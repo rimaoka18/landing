@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 250px; /* Adjust as needed */
+  background-color: #333; /* Example background color */
+}
+
+.links {
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+  padding: 0 8px ;
+  margin: 0 auto;
+  justify-content: center;
+  border: 1px solid #555555;
+}
+
+.links a {
+  color: white;
+  font-size: 24px;
+}

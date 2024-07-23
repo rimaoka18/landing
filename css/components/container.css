@@ -1,0 +1,30 @@
+.text-center {
+  text-align: center;
+  color:#f0f0f0;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #555555;
+  background-color: #222222;
+  color: #e0e0e0;
+}

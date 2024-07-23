@@ -1,0 +1,18 @@
+.btn-blue {
+  background: linear-gradient(135deg, #1E90FF, #00BFFF); /* Gradient from sandy brown to darker brown */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.btn-blue:hover {
+  background: linear-gradient(135deg, #1C86EE, #87CEFA); /* Darker gradient for hover effect */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
